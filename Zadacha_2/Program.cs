@@ -11,7 +11,6 @@ int numberB = Convert.ToInt32(strnumberB);
 string strnumberC = Console.ReadLine();
 int numberC = Convert.ToInt32(strnumberC);
 int max = numberA;
-if (numberA>max) max = numberA;
 if (numberB>max) max = numberB;
 if (numberC>max) max = numberC;
 System.Console.Write("max = ");
