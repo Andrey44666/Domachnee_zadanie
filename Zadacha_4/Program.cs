@@ -6,9 +6,9 @@
 Console.Write("Enter number :");
 string strnuber = Console.ReadLine();
 int number = System.Convert.ToInt32(strnuber);
-int result = 1;
-while (result < number)
+int result = 2;
+while (result <= number)
 {
-    System.Console.WriteLine(result + 1);
+    System.Console.Write(result + " ");
     result +=2;
 }
